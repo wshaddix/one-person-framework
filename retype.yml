@@ -1,0 +1,45 @@
+input: .
+output: .retype
+url: https://1personframe.work
+branding:
+  title: 1PF
+  label: Docs
+  logo: static/images/coding-in-the-forest.png
+  logo-dark: static/images/coding-in-the-forest.png
+edit:
+  repo: https://github.com/wshaddix/blog/edit/
+favicon: static/images/favicon.ico
+links:
+- text: Home
+  link: /
+  icon:
+  target:
+- text: Blog
+  link: /blog/
+  icon:
+  target:
+- text: GitHub
+  link: https://github.com/wshaddix/one-person-framework
+  icon: 
+  target: _blank
+- text: X
+  link: https://x.com/wshaddix
+  icon: 
+  target: _blank
+- text: RSS
+  link: /blog/feed.xml
+  icon: 
+  target: _blank
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+integrations:
+  plausible:
+    domain: 1personframe.work
+markdown:
+  lineBreaks: hard # or, soft
+poweredByRetype: false 
+snippets:
+  lineNumbers:
+    - *
+toc:
+  depth: 1-4
